@@ -1,0 +1,49 @@
+.contenedor{
+    display: grid;
+    grid-template-columns: 370px 370px 370px 370px 370px;
+    grid-template-rows: 200px 50px 650px 50px;
+    grid-template-areas:
+    'enc enc enc enc enc '
+    'enl enl enl enl enl'
+    'form con con con info'
+    'pie pie pie pie pie'
+    ;
+}
+.encabezado{
+    grid-area: enc;
+  
+}
+.enlaces{
+    grid-area: enl;
+    background-color: rgb(185, 99, 28);
+    text-align: center;
+}
+.formulario{
+    grid-area: form;
+    background-color: dodgerblue;
+    height: 721px;
+}
+.contenido{
+    grid-area: con;
+    background-color: rgb(226, 141, 43);
+    width: 1110px;
+    height: 721px;
+   
+}
+.informacion{
+    grid-area: info;
+    background-color: darkseagreen;  
+    height: 721px;
+}
+footer{
+    background-color: black;
+    color: aliceblue;
+    grid-area: pie;
+    text-align: center;
+    width: 1850px;
+}
+img{
+width: 1850px;
+height: 200px;
+}
+
